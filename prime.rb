@@ -5,7 +5,7 @@ def prime?(x)
     return false
    
   else
-    new_range = (1..(x/2)).to_a
+    new_range = (2..(x/2)).to_a
     new_range.each do |n|
       if x % n == 0
         return false
