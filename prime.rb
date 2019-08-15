@@ -9,7 +9,7 @@ def prime?(x)
     new_range = (1..x/2)
     puts new_range
   
-  
+  end
 end
 
 
