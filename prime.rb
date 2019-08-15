@@ -8,7 +8,7 @@ def prime?(x)
   else
     new_range = (1..(x/2)+1).to_a
     new_range.each do |n|
-      if x % 10 == 0
+      if x % n == 0
         return false
       end
     end
