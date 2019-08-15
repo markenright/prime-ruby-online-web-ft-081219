@@ -7,9 +7,12 @@ def prime?(x)
     return true
   else
     new_range = (1..(x/2)+1).to_a
-    puts "#{new_range}"
+    new_range.each do |n|
+      if x % 10 == 0
+        return false
   
   end
+  return true
 end
 
 
