@@ -6,7 +6,7 @@ def prime?(x)
   elsif x == 1
     return true
   else
-    new_range = (1..x)
+    new_range = (1..x).to_a
     puts "#{new_range}"
   
   end
