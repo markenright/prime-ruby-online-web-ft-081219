@@ -6,7 +6,11 @@ def prime?(x)
   elsif x == 1
     return true
   else
-    new_range = 
+    new_range = (1..x/2)
+    puts new_range
   
   
 end
+
+
+prime?(10)
