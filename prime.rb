@@ -7,7 +7,7 @@ def prime?(x)
     return true
   else
     new_range = (1..x)
-    p new_range
+    puts new_range
   
   end
 end
