@@ -17,4 +17,4 @@ def prime?(x)
 end
 
 
-puts prime?(2)
+puts prime?(10)
