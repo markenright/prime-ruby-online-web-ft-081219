@@ -13,4 +13,4 @@ def prime?(x)
 end
 
 
-prime?(10)
+prime?(11)
