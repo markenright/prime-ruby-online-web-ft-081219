@@ -10,6 +10,7 @@ def prime?(x)
     new_range.each do |n|
       if x % 10 == 0
         return false
+      end
   
   end
   return true
