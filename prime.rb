@@ -11,8 +11,9 @@ def prime?(x)
       if x % 10 == 0
         return false
       end
-  
+    end
   end
+  
   return true
 end
 
