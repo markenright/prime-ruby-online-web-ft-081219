@@ -18,4 +18,4 @@ def prime?(x)
 end
 
 
-puts prime?(11)
+puts prime?(10)
